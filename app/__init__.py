@@ -1,0 +1,1 @@
+"""Assistive navigation application package."""
