@@ -4,6 +4,7 @@ import queue
 import re
 import threading
 import time
+from pathlib import Path
 
 import cv2
 from dotenv import load_dotenv
@@ -92,7 +93,9 @@ def _draw_overlay(frame, detections, guidance: str) -> None:
 
 
 def run(camera_index: int, show_window: bool) -> None:
-    load_dotenv()
+    project_root = Path(__file__).resolve().parent.parent
+    env_path = project_root / ".env"
+    load_dotenv(dotenv_path=env_path, override=False)
     settings = Settings()
     detector = Detector(
         settings.yolo_model,
