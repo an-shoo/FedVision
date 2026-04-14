@@ -6,7 +6,7 @@ Real-time assistive guidance system for visually impaired navigation:
 2. YOLOv8 object detection
 3. Proximity + direction heuristics
 4. Structured scene JSON
-5. LLM reasoning via Ollama
+5. LLM reasoning via Ollama (phi3 mini)
 6. Optional text-to-speech (offline, `pyttsx3`)
 
 ## Current Status
