@@ -73,4 +73,4 @@ You can override any of these in your local `.env` without changing code.
 
 ## PS
 - If the command doesn't work try:
-   - '$env:OLLAMA_BASE_URL='http://127.0.0.1:11434'; $env:OLLAMA_MODEL='phi3:mini'; $env:YOLO_DEVICE='auto'; $env:DETECT_EVERY_N_FRAMES='2'; $env:YOLO_IMGSZ='416'; $env:ENABLE_TTS='true'; $env:LLM_NUM_PREDICT='28'; $env:LLM_MIN_INTERVAL_SEC='1.0'; $env:LLM_MAX_INTERVAL_SEC='4.0'; .\.venv\Scripts\python -m app.main --camera 0 --show'
+   - `$env:OLLAMA_BASE_URL='http://127.0.0.1:11434'; $env:OLLAMA_MODEL='phi3:mini'; $env:YOLO_DEVICE='auto'; $env:DETECT_EVERY_N_FRAMES='2'; $env:YOLO_IMGSZ='416'; $env:ENABLE_TTS='true'; $env:LLM_NUM_PREDICT='28'; $env:LLM_MIN_INTERVAL_SEC='1.0'; $env:LLM_MAX_INTERVAL_SEC='4.0'; .\.venv\Scripts\python -m app.main --camera 0 --show`
